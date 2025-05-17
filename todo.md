@@ -46,12 +46,12 @@
 ## Client Libraries & SDKs
 - [x] Create TypeScript/JavaScript client library
 - [x] Add React hooks for data fetching
-- [ ] Implement tRPC integration
+- [X] Implement tRPC integration
 - [x] Create client-side query builder
 - [ ] Add client-side caching helpers
 
 ## Documentation & Examples
-- [ ] Create API documentation
+- [X] Create API documentation
 - [ ] Write developer guides
 - [ ] Create example applications
 - [ ] Document database schema recommendations
