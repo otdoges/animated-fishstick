@@ -13,7 +13,7 @@
 - [x] Create database connection manager
 - [x] Create table/collection abstraction layer
 - [x] Implement CRUD operations
-- [ ] Add filtering, sorting, and pagination
+- [x] Add filtering, sorting, and pagination
 - [ ] Create endpoint for database schema introspection
 - [x] Implement transaction support
 
