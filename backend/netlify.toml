@@ -1,0 +1,16 @@
+[build]
+  command = "mkdir -p functions/api && cp -r cmd/api/* functions/api/"
+  functions = "functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["db/migrations/**"]
+  external_node_modules = ["better-sqlite3", "pg-native"]
+
+[build.environment]
+  GO_IMPORT_PATH = "github.com/jackson/supabase-go"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200

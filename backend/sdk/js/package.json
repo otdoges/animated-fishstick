@@ -1,0 +1,29 @@
+{
+  "name": "supabase-go-client",
+  "version": "0.1.0",
+  "description": "JavaScript client for Supabase-Go - A high-performance Supabase clone built with Go",
+  "main": "supabase-go.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild supabase-go.js --bundle --minify --format=esm --outfile=dist/supabase-go.min.js"
+  },
+  "files": [
+    "supabase-go.js",
+    "react.js",
+    "dist"
+  ],
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "api",
+    "go",
+    "auth"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
